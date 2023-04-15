@@ -1,0 +1,17 @@
+{
+  "name": "auto-commit-action",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "author": "Hongbusi",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "dayjs": "^1.11.7"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  }
+}

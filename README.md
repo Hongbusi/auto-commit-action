@@ -1,1 +1,1 @@
-# auto-commit-action
+# Auto commit
