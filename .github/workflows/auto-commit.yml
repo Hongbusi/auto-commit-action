@@ -13,7 +13,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Auto commit
-        uses: developer-plus/learn-together-action@main
         run: node dist/index.js
 
       - name: Push
