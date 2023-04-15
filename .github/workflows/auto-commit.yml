@@ -7,7 +7,7 @@ on:
     # - cron:  '0 20 * * *'
 
 jobs:
-  create-issue:
+  auto-commit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
