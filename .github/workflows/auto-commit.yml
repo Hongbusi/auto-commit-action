@@ -3,7 +3,7 @@ name: Auto commit
 on:
   workflow_dispatch:
 
-  schedule:
+#   schedule:
     # - cron:  '0 20 * * *'
 
 jobs:
